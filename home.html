@@ -7,32 +7,38 @@
     <style>
         body{
             margin:300px;
-            height:100vh;
+            height:1000vh;
              margin:20px;
-             display:flex;
+             /* display:flex;
              justify-content:space-around;
              align-items:center;
-             flex-wrap:nowrap;
+             flex-wrap:nowrap; */
         }
-        span{
-            background-color:blue;
-            height:20px;
 
-            padding:20px;
+        div{
+          width:200px;
+          height:200px;
+          background-color: blue;
+          position:relative;
+          
         }
-        .tomato, .tomato2, .tomato3{
-            background-color:tomato;
-        } 
+        .green {
+          background-color: teal;
+          position:absolute;
+          right:5px;
+          
+          height:100px;
+          width:100px;
+        }
+       
 
    
     </style>
 </head>
 <body>
-    <span></span>
-    <span class='btn tomato'></span>
-    <span></span>
-    <span class='btn tomato2'></span>
-    <span></span>
-    <span class='btn tomato3'></span>
+  <div>
+    <div class='green'></div>
+  </div>
+  
 </body>
 </html>
