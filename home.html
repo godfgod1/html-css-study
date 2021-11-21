@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>about me</title>
     <style>
-        body{
-            margin:300px;
-            height:100vh;
-             margin:20px;
-             display:flex;
-             justify-content:space-around;
-             align-items:center;
-             flex-wrap:nowrap;
-        }
-        span{
-            background-color:blue;
-            height:20px;
-
-            padding:20px;
-        }
-        .tomato, .tomato2, .tomato3{
-            background-color:tomato;
-        } 
-
-   
+      body {
+        height: 100vh;
+        margin: 50px;
+      }
+      input{
+          border:1px solid wheat;
+      }
+      
+      input:optional{
+          border:1px solid blue;
+      }
+      
+    input:required{
+        border:1px solid tomato;
+    }
+    input[placeholder="name"]{
+        background-color:red;
+    }
     </style>
-</head>
-<body>
-    <span></span>
-    <span class='btn tomato'></span>
-    <span></span>
-    <span class='btn tomato2'></span>
-    <span></span>
-    <span class='btn tomato3'></span>
-</body>
+  </head>
+  <body>
+      <div>
+        <form action="">
+            <input type="text" placeholder="username name">
+            <input required type="password" placeholder="username name">
+
+        </form>
+      </div>
+    
+  </body>
 </html>
