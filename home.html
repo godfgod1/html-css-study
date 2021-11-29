@@ -23,16 +23,59 @@
     input[placeholder="name"]{
         background-color:red;
     }
+    button:active {
+      background-color: tomato;
+    }
+    button:hover {
+      background-color: yellow;
+    }
+    input:focus {
+      background-color: green;
+    
+    }
+    a{
+      border-radius: 10px;
+      padding:5px;
+      background-color: yellowgreen;
+    }
+    a:visited {
+      color: tomato;
+    }
+    a:hover {
+      color: violet;
+    }
+    a:hover {
+      color: blue;
+    }
+    form{
+      border: 1px solid salmon;
+      display:flex;
+      flex-direction:column;
+      padding:20px;
+    }
+    form:focus-within{
+      border-color:seagreen;
+    }
+    form:hover input:focus{
+      border-color:yellowgreen;
+    }
     </style>
   </head>
   <body>
-      <div>
-        <form action="">
+      <!-- <div> -->
+        <!-- <form action="">
             <input type="text" placeholder="username name">
             <input required type="password" placeholder="username name">
 
-        </form>
-      </div>
-    
+        </form> -->
+        <!-- <button>hello</button>
+        <input type="text">
+        <a href="https://naver.com">Go to apple</a>
+      </div> -->
+      <form action="">
+        <input type="text">
+        <input type="text">
+        <input type="text">
+      </form>
   </body>
 </html>
