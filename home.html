@@ -5,77 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>about me</title>
     <style>
+      :root {
+        --main-color:#909498;
+        --default-border:1px solid var(--main-color);
+      }
       body {
-        height: 100vh;
-        margin: 50px;
+        height:1000vh;
+        margin:50px;
       }
-      input{
-          border:1px solid wheat;
-      }
-      
-      input:optional{
-          border:1px solid blue;
-      }
-      
-    input:required{
-        border:1px solid tomato;
-    }
-    input[placeholder="name"]{
-        background-color:red;
-    }
-    button:active {
-      background-color: tomato;
-    }
-    button:hover {
-      background-color: yellow;
-    }
-    input:focus {
-      background-color: green;
-    
+    p {
+      background-color:var(--main-color);
     }
     a{
-      border-radius: 10px;
-      padding:5px;
-      background-color: yellowgreen;
-    }
-    a:visited {
-      color: tomato;
-    }
-    a:hover {
-      color: violet;
-    }
-    a:hover {
-      color: blue;
-    }
-    form{
-      border: 1px solid salmon;
-      display:flex;
-      flex-direction:column;
-      padding:20px;
-    }
-    form:focus-within{
-      border-color:seagreen;
-    }
-    form:hover input:focus{
-      border-color:yellowgreen;
+      color:var(--main-color);
+      border:var(--default-border);
     }
     </style>
   </head>
   <body>
-      <!-- <div> -->
-        <!-- <form action="">
-            <input type="text" placeholder="username name">
-            <input required type="password" placeholder="username name">
-
-        </form> -->
-        <!-- <button>hello</button>
-        <input type="text">
-        <a href="https://naver.com">Go to apple</a>
-      </div> -->
-      <form action="">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-      </form>
+ <p>
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iure alias nobis voluptas ullam nulla vero quos? Optio laudantium autem illum rem odio deleniti. Fuga cupiditate quod aliquam harum deserunt.
+ </p>
+ <div>
+   <a href="">website</a>
+ </div>
   </body>
 </html>
