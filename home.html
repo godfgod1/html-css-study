@@ -5,28 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>about me</title>
     <style>
-      a{
-        color:white;
-        background-color:tomato;
-        text-decoration:none;
-        padding:30px 50px;
-        border-radius:5px;
-        font-size:10rem;
-        transition:color 2s cubic-bezier(0.785, 0.135, 0.150, 0.860),
-        border-radius 5s ease-in-out, 
-        background-color 10 ease-in-out;
-        
+      img{
+        border:5px solid black;
+        border-radius:50%;
+        /* transform:ScaleY(40deg) ScaleX(20deg) ScaleX(30deg); */
+        /* transform:scaleX(2,2) */
+        /* transform:translateX(300px); */
+        /* transform:skewX(45deg); */
+        transition:transform 3s ease-in-out;
       }
-      a:hover{
-        color:tomato;
-        background-color:wheat;
-        border-radius:50px;
+      img:hover{
+        /* transform:rotateX(360deg) scale(0.5); */
+        /* transform:rotateY(360deg) scale(0.5); */
+        transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
       }
     </style>
   </head>
   <body>
  <div>
-   <a href="">website</a>
+   <img src="img/mylogo.jpg" alt="">
  </div>
   </body>
 </html>
